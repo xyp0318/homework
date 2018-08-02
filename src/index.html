@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>淘宝网触屏版</title>
     <link rel="stylesheet" href="./css/taobao_style.css">
     <link rel="stylesheet" href="./css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="./fonts/iconfont.css">
     <script src="./js/flexible.js"></script>
     <script src="./js/swiper-4.3.3.min .js"></script>
     <script src="./js/Zepto.js"></script>
@@ -19,112 +20,167 @@
             <p><input type="text" value="寻找宝贝店铺"></p>
         </header>
         <main class="main">
-            <div class="banner swiper-container">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
-                        <img src="https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" alt="">
-                    </li>
-                    <li class="swiper-slide">
-                        <img src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" alt="">
-                    </li>
-                    <li class="swiper-slide">
-                        <img src="https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" alt="">
-                    </li>
-                    <li class="swiper-slide">
-                        <img src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" alt="">
-                    </li>
-                    <li class="swiper-slide">
-                        <img src="https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" alt="">
-                    </li>
-                    <li class="swiper-slide">
-                        <img src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" alt="">
-                    </li>
-                </ul>
-                <ol class="swiper-pagination"></ol>
-            </div>
-            <div class="list">
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tps/TB1d30fPVXXXXbGXXXXXXXXXXXX-183-144.png_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tfs/TB1lZyXcQyWBuNjy0FpXXassXXa-183-144.png?getAvatar=1_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tfs/TB163FbPVXXXXcKXXXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tps/TB1eXc7PFXXXXb4XpXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tfs/TB1PDDqetzJ8KJjSspkXXbF7VXa-183-144.png_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tps/TB1d30fPVXXXXbGXXXXXXXXXXXX-183-144.png_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tfs/TB1lZyXcQyWBuNjy0FpXXassXXa-183-144.png?getAvatar=1_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tfs/TB163FbPVXXXXcKXXXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tps/TB1eXc7PFXXXXb4XpXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <img src="https://gw.alicdn.com/tfs/TB1PDDqetzJ8KJjSspkXXbF7VXa-183-144.png_.webp" alt="">
-                    </dt>
-                    <dd>天猫</dd>
-                </dl>
-            </div>
-            <div class="toutiao">
-                <div class="left">淘宝头条</div>
-                <div class="con swiper-container">
+            <div class="scroll">
+                <div class="banner swiper-container">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
-                            <p>安全气囊弹出来一次，塞回去得花多少钱？</p>
-                            <p>胎宝宝原来最喜欢在这2个时间点睡觉觉！</p>
+                            <img src="https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" alt="">
                         </li>
                         <li class="swiper-slide">
-                            <p>88㎡三房暖居案例，舒适慵懒而宽敞</p>
-                            <p>Core i9-9900K跑分曝光</p>
+                            <img src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" alt="">
                         </li>
                         <li class="swiper-slide">
-                            <p>奥特曼变成石像，如何才能复活？</p>
-                            <p>海贼王：难以抓到人的四张悬赏令？很神奇</p>
+                            <img src="https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide">
+                            <img src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide">
+                            <img src="https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" alt="">
+                        </li>
+                        <li class="swiper-slide">
+                            <img src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" alt="">
                         </li>
                     </ul>
+                    <ol class="swiper-pagination"></ol>
+                </div>
+                <div class="list">
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tps/TB1d30fPVXXXXbGXXXXXXXXXXXX-183-144.png_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tfs/TB1lZyXcQyWBuNjy0FpXXassXXa-183-144.png?getAvatar=1_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tfs/TB163FbPVXXXXcKXXXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tps/TB1eXc7PFXXXXb4XpXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tfs/TB1PDDqetzJ8KJjSspkXXbF7VXa-183-144.png_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tps/TB1d30fPVXXXXbGXXXXXXXXXXXX-183-144.png_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tfs/TB1lZyXcQyWBuNjy0FpXXassXXa-183-144.png?getAvatar=1_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tfs/TB163FbPVXXXXcKXXXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tps/TB1eXc7PFXXXXb4XpXXXXXXXXXX-183-144.png?getAvatar=1_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                                    <img src="https://gw.alicdn.com/tfs/TB1PDDqetzJ8KJjSspkXXbF7VXa-183-144.png_.webp" alt="">
+                                </dt>
+                        <dd>天猫</dd>
+                    </dl>
+                </div>
+                <div class="toutiao">
+                    <div class="left">淘宝头条</div>
+                    <div class="con swiper-container">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <p>安全气囊弹出来一次，塞回去得花多少钱？</p>
+                                <p>胎宝宝原来最喜欢在这2个时间点睡觉觉！</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p>88㎡三房暖居案例，舒适慵懒而宽敞</p>
+                                <p>Core i9-9900K跑分曝光</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <p>奥特曼变成石像，如何才能复活？</p>
+                                <p>海贼王：难以抓到人的四张悬赏令？很神奇</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tuwenhunpai">
+                    <div class="top">
+                        <div class="left">
+                            <div class="cot">
+                                <div class="word">淘抢购</div>
+                                <img src="./images/pic1.jpg" alt="">
+                            </div>
+                            <img src="./images/pic2.jpg" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="cot">
+                                <div class="word">淘抢购</div>
+                                <img src="./images/pic3.jpg" alt="">
+                            </div>
+                            <img src="./images/pic4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bot">
+                        <div class="left">
+                            <div class="cot">
+                                <div class="word">淘抢购</div>
+                                <img src="./images/pic5.jpg" alt="">
+                            </div>
+                            <img src="./images/pic6.jpg" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="cot">
+                                <div class="word">淘抢购</div>
+                                <img src="./images/pic7.jpg" alt="">
+                            </div>
+                            <img src="./images/pic8.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
+        <footer class="footer">
+            <ul>
+                <li>
+                    <i class="icon iconfont icon-shouye"></i> 首页
+                </li>
+                <li>
+                    <i class="icon iconfont icon-daishouhuo-01"></i> 物流
+                </li>
+                <li>
+                    <i class="icon iconfont icon-gouwuche"></i> 购物车
+                </li>
+                <li>
+                    <i class="icon iconfont icon-wode"></i> 我的淘宝
+                </li>
+                <li>
+                    <i class="icon iconfont icon-gengduo"></i> 更多
+                </li>
+            </ul>
+        </footer>
     </div>
 </body>
 </body>

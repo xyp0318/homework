@@ -13,6 +13,7 @@ body {
 }
 
 .header {
+    flex-shrink: 0;
     width: 100%;
     height: px2rem(50px);
     @include display(flex, row, center);
@@ -37,6 +38,7 @@ body {
     flex: 1;
     width: 100%;
     height: 100%;
+    overflow-y: auto;
 }
 
 .banner {
@@ -76,5 +78,46 @@ body {
     }
     .con {
         height: 40px;
+    }
+}
+
+.tuwenhunpai {
+    .top,
+    .bot {
+        padding: 0 px2rem(10px);
+        @include display(flex, row, space-between);
+        width: 100%;
+        &>div {
+            @include display(flex, row, space-between);
+            .cot {
+                img {
+                    width: px2rem(80px);
+                }
+            }
+            img {
+                width: px2rem(80px);
+            }
+        }
+    }
+    .top {
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.footer {
+    flex-shrink: 0;
+    width: 100%;
+    height: px2rem(50px);
+    border-top: 1px solid #ccc;
+    ul {
+        @include display(flex, row, space-between);
+        li {
+            width: 20%;
+            text-align: center;
+            height: px2rem(50px);
+            i {
+                display: block;
+            }
+        }
     }
 }
